@@ -1,0 +1,35 @@
+/****** Header ******/
+header {
+    background-image: url(https://popculturetimes.com/wp-content/uploads/2020/01/Rick-And-Morty-Season-4-1.png);
+    background-size: cover;
+    min-height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    margin: 0;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 7vh;
+}
+.characters__item {
+    flex: 1;
+    margin: auto;
+
+}
+
+
+/*** Media queries ****/
+@media (min-width: 600px) {
+
+    header {
+        min-height: 45vh;
+        background-size: contain;
+        background-color: black;
+    }
+}
