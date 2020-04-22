@@ -1,6 +1,6 @@
 # Rick and Morty App
 
-This repo is a JS practice of:
+This repo is a JS Vanilla practice of:
 
 - Fetch
 - Templates generation
